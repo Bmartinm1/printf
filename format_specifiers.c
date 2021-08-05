@@ -6,7 +6,11 @@
  */
 int print_char(va_list list)
 {
-	_putchar(va_arg(list, int));
+	int chr;
+
+	chr = va_arg(list, int);
+
+	_putchar(chr);
 	return (1);
 }
 
