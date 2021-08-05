@@ -40,11 +40,11 @@ int parser(const char *format, conver_t f_list[], va_list arg_list)
 				else
 					return (-1);
 			}
-			i = i + 1; /*Updating i to skip format symbols*/
+			i = i + 1; /*Update i to skip formatting symbols*/
 		}
 		else
 		{
-			_write_char(format[i]); /*call the write function*/
+			_write_char(format[i]); /*calling the write function*/
 			printed_chars++;
 		}
 	}
