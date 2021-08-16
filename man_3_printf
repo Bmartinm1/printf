@@ -1,0 +1,25 @@
+_printf manual
+
+NAME
+	_printf - print to stdout
+
+OVERVIEW
+	Custom version of the standard printf function.
+	int _printf(const char *format, ...);
+
+QUICK N' DIRTY
+	_printf() writes to the stdout according to 'format' - stdout is the standard output stream.
+
+RETURNS
+	On success: the number of characters printed, excluding the null character.
+	On failure: -1
+
+SPECIFIERS
+	%c - char
+	%s - string
+	%d - decimal
+	%i - integer
+	%  - percent
+	
+AUTHOR
+Ben MartinMooney
